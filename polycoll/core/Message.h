@@ -6,7 +6,8 @@
 typedef int64_t Index_t;
 
 namespace mpi
-{
+{// Although nothing in this file uses MPI, it is necessary machinery for the MPI messageing 
+ // system that we need
  //-------------------------------------------------------------------------------------------------
  // Values for specializations
  //-------------------------------------------------------------------------------------------------
